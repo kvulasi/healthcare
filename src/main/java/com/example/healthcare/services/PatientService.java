@@ -8,7 +8,7 @@ import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.healthcare.controllers.AddressNotFoundException;
+import com.example.healthcare.exceptions.AddressNotFoundException;
 import com.example.healthcare.exceptions.PatientNotFoundException;
 import com.example.healthcare.models.Address;
 import com.example.healthcare.models.Patient;

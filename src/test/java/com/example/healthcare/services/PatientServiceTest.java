@@ -20,7 +20,7 @@ import org.mockito.junit.jupiter.MockitoExtension;
 
 import com.example.healthcare.repositories.AddressRepository;
 import com.example.healthcare.repositories.PatientRepository;
-import com.example.healthcare.controllers.AddressNotFoundException;
+import com.example.healthcare.exceptions.AddressNotFoundException;
 import com.example.healthcare.exceptions.PatientNotFoundException;
 import com.example.healthcare.models.Address;
 import com.example.healthcare.models.Patient;

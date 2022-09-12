@@ -1,4 +1,4 @@
-package com.example.healthcare.controllers;
+package com.example.healthcare.exceptions;
 
 import lombok.Getter;
 

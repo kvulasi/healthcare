@@ -23,6 +23,7 @@ import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
 
+import com.example.healthcare.exceptions.AddressNotFoundException;
 import com.example.healthcare.exceptions.PatientNotFoundException;
 import com.example.healthcare.models.Address;
 import com.example.healthcare.models.Patient;

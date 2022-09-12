@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
-import com.example.healthcare.controllers.AddressNotFoundException;
+import com.example.healthcare.exceptions.AddressNotFoundException;
 import com.example.healthcare.exceptions.PatientNotFoundException;
 import com.example.healthcare.models.ErrorResponse;
 
